@@ -1,0 +1,43 @@
+body{
+    padding: 0%;
+    padding-top: 200px;
+    margin: 0%;
+    background-color: cyan;
+    color: rgb(241, 182, 182);
+    text-align: center;
+    background-image: url(cal_img);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    border-radius: 20px;
+}
+.id{
+    padding-top: 50%;
+}
+
+.cal{
+    transition: 2s;
+}
+
+#display{
+    width: 420px;
+    height: 50px;
+    margin: 20px;
+}
+
+input{
+    width: 100px;
+    height: 60px;
+    padding: 5px;
+    margin: 3px;
+    font-size: 40px;
+    border-radius: 10px;
+   
+    
+}
+
+.btn:hover{
+    background-color: rgb(242, 232, 154);
+    cursor: pointer;
+}
